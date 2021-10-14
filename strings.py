@@ -1,11 +1,13 @@
 text = ("ice cream")
-print(text)
+print(text[0])
 
+s1 = ("Hello")
+s2 = ("world")
+google=s1+' '+s2
+print(google)
 
-
-
-0  1  2  3  4  5  6  7  8
--------------------------
-i  c  e    c  r  e  a  m
--------------------------
-
+num = 23
+s1 = "total\nstates in usa\n"
+print(str(num)) 
+print(s1)
+print(s1+(str(num)))
